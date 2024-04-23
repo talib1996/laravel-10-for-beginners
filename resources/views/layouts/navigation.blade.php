@@ -17,6 +17,13 @@
                     </x-nav-link>
                 </div>
             </div>
+            
+            <form method="get" action="{{route('ticket.index')}}" class="flex flex-col justify-center">
+            <x-primary-button>
+                {{ __('Support Ticket') }}
+            </x-primary-button>
+            </form>
+
 
             <!-- Settings Dropdown -->
             <div class="hidden sm:flex sm:items-center sm:ms-6">
